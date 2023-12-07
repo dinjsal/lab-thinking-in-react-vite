@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.searchbar {
+  width: 80%;
+}
+
+table {
+  margin: 0 auto;
+  width: 80%;
+}
+
+table, th, td {
+  border-bottom: solid 1px rgb(70, 69, 69);
+  border-collapse: collapse;
+}
+
+th {
+  background-color: grey;
+  padding: 12px;
+}
+
+.searchbar-div {
+  margin-bottom: 50px;
+}
+

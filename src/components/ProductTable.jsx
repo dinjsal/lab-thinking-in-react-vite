@@ -18,7 +18,6 @@ function ProductTable() {
                     return (<tbody>
                         <tr key={jsonData.id}>
                             <td><ProductRow name={oneData.name}/></td>
-                            {oneData.inStock ? oneData.name = blue : oneData.name = red} 
                             {/* {oneData.inStock ? oneData.name.style={color:black} : oneData.name.style={color:red}}  */}
                             <td><ProductRow price={oneData.price}/></td>
                         </tr>
